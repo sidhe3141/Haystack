@@ -1,0 +1,64 @@
+/**
+ * @author James
+ */
+
+//Begins a new Haystack session.
+function start(address)
+{
+	//Access the "app" div.
+	//Open a frame in "app".
+	//Set the frame's address to the address.
+	//Set the default address.
+}
+
+//Blacklists a regex, so that a frame visiting a site including it will close instead of progressing.
+function addBlacklist(string, list){
+	addLocalBlacklist(string, list);
+	//Add the string to the saved blacklist.
+}
+
+//Puts a regex on the local blacklist, without adding it to the saved blacklist.
+function addLocalBlacklist(regex){
+	//Add the string to the blacklist.
+	//Add the string to the saved blacklist.
+	//Access the "blacklist" div.
+	//Add a new div to "blacklist" containing the new item.
+}
+
+//Loads the saved blacklist.
+function loadBlacklist(list){
+	//For each blacklist cookie:
+	// Add the string to the local blacklist.
+}
+
+//Deletes the saved blacklist, so that it is not obtainable next session.
+function deleteBlacklist(list){
+	//For each blacklist cookie:
+	// Erase the cookie.
+}
+
+//Tests to see if an address is on the blacklist associated with a string. True if it is not, false if it is.
+function checkBlacklist(address){
+	//For each regex on the blacklist:
+	// If the address matches the regex, return true.
+	
+	//Return false.
+}
+
+//Clicks a link in a frame.
+function stepFrame(frame){
+	//Have a random chance (1/100) of automatically returning to the default page.
+	// If the random chance does not come up, check the frame for blacklisting.
+	//  If the frame's address is blacklisted, return to the default page.
+	//  If the frame's address is clear, pick an element at random. If this is an error, return to the default page.
+	//   If the random element is not a link, simulate a click.
+	//   If the random element is a link, check its href for blacklisting. If this is an error, click it.
+	//    If the link's href is blacklisted, do nothing.
+	//    If the link's href is not blacklisted, click it.
+	
+	//If a return to the default page is indicated, set the frame's src to the default address.
+	//If a simulated click is indicated, fire a click event on the random element, and if necessary change the page address to its href.
+	//If doing nothing is indicated, do nothing.
+	
+	//Run this last, and always run it: on a random delay (500 to 600 000 ms), run this function again once.
+}

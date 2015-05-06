@@ -1,0 +1,40 @@
+body {
+
+}
+
+span.h1{
+	display:block;
+	font-size:larger;
+	color:red
+}
+
+span.t1{
+	display:inline;
+	font-weight:bold;
+}
+
+span.t2{
+	display:inline;
+	font-style: italic;
+}
+
+span.t3{
+	display:inline;
+	font-weight:bold;
+	font-style:italic;
+	color:green;
+}
+
+#title{
+	
+}
+
+#url{
+	
+}
+
+frame.app{
+	display:inline;
+	width:50px;
+	height:50px;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Haystack: Bury your Browsing</title>
+    </head>
+    <body>
+    	<p>
+    		<span class="h1">What is Haystack?</span>
+    	</p>
+    	<p>
+    		<span class="t1">Haystack</span> is a website that protects your browsing from Facebook, Google, and other sites that might make
+    		use of it, such as by targeting ads or identifying correlations in your history.
+    	</p>
+    	<p>
+    		<span class="h1">How Does It Work?</span>
+    	</p>
+    	<p>
+    		Haystack opens frames in this very page, that bury your browsing beneath a large amount of noise. By doing this, it becomes 
+    		difficult for advertisers, tracking cookies, traffic sniffers, and other methods of tracking you online to know what you're 
+    		actually looking at. Haystack opens a new frame containing a site of your choice, and clicks random links on that site at random
+    		intervals, to create the appearance of an actual user visiting that site.
+    	</p>
+    	<p>
+    		<span class="h1">What Should I Be Concerned About?</span>
+    	</p>
+    	<p>
+    		<ul>
+    			<li>
+    				First, <span class="t1">Haystack does not conceal or anonomyze your activity.</span> Sites you visit, even with Haystack 
+    				active, still know that you have visited them, and anyone specifically watching for those sites will know that you 
+    				have visited them. If you wish to visit a site anonymously, please use a proxy or an onion-routing service such as Tor. 
+    				<span class="t2">By using Haystack, you agree that you understand that you are not anonymous.</span>
+    				
+    			</li>
+    			<li>
+    				Second, <span class="t1">Haystack does not know your data.</span> It cannot log in or register at any site, nor can it 
+    				replicate user activity. Haystack does not offer deniability on fora, online games, discussion boards, or any
+    				other kind of site that makes use of any activity other than clicking links. <span class="t2">By using Haystack, you 
+    				agree that you do not expect it to perform anything more sophisticated than clicking random links.</span>
+    			</li>
+    			<li>
+    				Third, <span class="t1">Haystack generates false clicks.</span>. Before using Haystack, please blacklist any sites you 
+    				operate containing advertisements, in order to remain in compliance with the law. It is also suggested that you blacklist 
+    				any sites on which it is likely that you have advertisements, or on which it is possible that your computer might 
+    				automatically fill in information to make purchases. <span class="t2">By using Haystack, you agree to take reasonable 
+    				precautions such as these to prevent it from making any false clicks which might benefit you, and accept any false clicks 
+    				it makes which harm you. You further agree that you will not hold any person liable for any direct or indirect result of
+    				any false click.</span>
+    			</li>
+    			<li>
+    				Fourth, <span class="t1">Haystack does not change what is visible to you.</span> Haystack is only useful to hide activity
+    				from external tracking. It does not hide your browsing from anyone looking over your shoulder or passing your cube while 
+    				you are away, nor from most spyware or keyloggers that might be installed on your computer. This also extends to your 
+    				stored browsing history; depending on your browser, Haystack's sites might not appear in your history. <span class="t2">
+    				By using Haystack, you accept that your activity is not hidden from anyone with access to your machine.</span>
+    			</li>
+    			<li>
+    				Fifth, <span class="t1">Haystack does not protect you from malware.</span> Haystack visits sites largely at random, and 
+    				has no way to distinguish good sites from bad. It will run any scripts found on any site it visits. It is suggested that 
+    				before using Haystack, you ensure that your firewall and security software are up to date (or run Haystack in a virtual 
+    				box or on a separate machine), and blacklist extensions such as "*.exe". Do not under any circumstances save to your 
+    				computer anything opened by Haystack. <span class="t2">By using Haystack, you accept the possibility that it might 
+    				inadvertently damage your computer, and agree that you will not hold any person other than the creator of any malware 
+    				liable for any damage to your computer caused directly or indirectly by Haystack's operation.</span>
+    			</li>
+    			<li>Sixth, <span class="t1">Haystack uses your Internet connection.</span> All sites Haystack opens are opened as though you
+    				had opened them. Data rates may apply if you are using Haystack on a smartphone, and sites it opens count against any
+    				bandwidth or data limits on a network connection. If Haystack opens a site that is on an NSA watchlist or the like, 
+    				anyone watching your traffic will most likely have no way of knowing it was Haystack that opened it. As such, take care 
+    				when using Haystack. <span class="t2">By using Haystack, you accept that it may slow down other network operations,
+    				incur data or other usage fees, or access or attempt to access sites that are forbidden, illegal, suspicious, 
+    				unproductive, pornographic, or otherwise prone to cause negative consequences for you. You agree that you shall not hold 
+    				any other person liable for your lost productivity, fees, investigation, arrest, job termination, or any similar negative 
+    				consequence resulting from your use of Haystack.</span>
+    			</li>
+    			<li>
+    				Seventh, like all privacy tools, <span class="t1">Haystack might be used to cover up criminal activity.</span> This is an
+    				unavoidable consequence of any tool that hides activity or provides deniability. The creator does not condone any illegal 
+    				use of Haystack, nor any use of Haystack to conceal crimes, but it is impossible to design any privacy tool such that it 
+    				cannot be used for these. Because of this limitation, it is possible that Haystack specifically, or similar tools 
+    				generally, might become illegal or suspect to use in some jurisdictions. <span class="t2">By using Haystack, you agree 
+    				that its use is legal where you are using it, and that you will neither commit any crime nor inflict any tort with it, 
+    				nor by any activity concealed by its use. Should you commit a crime or inflict a tort by use of Haystack, or by an action 
+    				concealed by Haystack, you agree that you have done so by your own free will; and that its creator was blameless in your 
+    				doing so, and was neither accomplice nor accessory nor conspirator to your act.</span>
+    			</li>
+    			<li>
+    				Eighth, <span class="t1">Haystack is experimental.</span> It might have bugs that are not currently known, or might be 
+    				exploitable in ways that its creator cannot anticipate. <span class="t2">By using Haystack, you accept that it is in 
+    				development, and might be prone to unpredicted and/or exploitable behavior. You agree that you will not hold any person 
+    				liable for any such behavior who did not intentionally produce such behavior. You accept that it is presented as-is. 
+    				You agree that you will not hold any person liable for any injury (physical, financial, or otherwise) resulting from your own
+    				use of Haystack in any unusual or sensitive application, including but not limited to: espionage, operation of any heavy 
+    				machinery, monitoring of any person or thing, operation of nuclear or other power plants, or secure communication.</span>
+    			</li>
+    		</ul>
+    	</p>
+    	<div id="blacklist"></div>
+    	<div id="app"></div>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+/**
+ * @author James
+ */
+
+//Begins a new Haystack session.
+function start(address)
+{
+	//Access the "app" div.
+	//Open a frame in "app".
+	//Set the frame's address to the address.
+}
+
+//Blacklists a string of characters, so that a frame visiting a site including it will close instead of progressing.
+function addBlacklist(string){
+	//Add the string to the blacklist.
+	//Add the string to the saved blacklist.
+	//Access the "blacklist" div.
+	//Add a new div to "blacklist" containing the 
+}
+
+function loadBlacklist(){
+	
+}

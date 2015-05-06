@@ -1,0 +1,56 @@
+/**
+ * @author James
+ */
+
+//Begins a new Haystack session.
+function start(address)
+{
+	//Access the "app" div.
+	//Open a frame in "app".
+	//Set the frame's address to the address.
+	//Set the default address.
+}
+
+//Blacklists a regex, so that a frame visiting a site including it will close instead of progressing.
+function addBlacklist(string, list){
+	addLocalBlacklist(string, list);
+	//Add the string to the saved blacklist.
+}
+
+//Puts a regex on the local blacklist, without adding it to the saved blacklist.
+function addLocalBlacklist(regex){
+	//Add the string to the blacklist.
+	//Add the string to the saved blacklist.
+	//Access the "blacklist" div.
+	//Add a new div to "blacklist" containing the new item.
+}
+
+//Loads the saved blacklist.
+function loadBlacklist(list){
+	//For each blacklist cookie:
+	// Add the string to the local blacklist.
+}
+
+//Deletes the saved blacklist, so that it is not obtainable next session.
+function deleteBlacklist(list){
+	//For each blacklist cookie:
+	// Erase the cookie.
+}
+
+//Tests to see if an address is on the blacklist associated with a string. True if it is not, false if it is.
+function checkBlacklist(address){
+	//For each regex on the blacklist:
+	// If the address matches the regex, return true.
+	
+	//Return false.
+}
+
+//Clicks a link in a frame.
+function stepFrame(frame, delay){
+	//Test the frame against the blacklist.
+	//If the frame's address matches the blacklist, set it to the default address.
+	//If the frame's address does not match the blacklist:
+	// Choose an element in the frame at random.
+	// Run a click event on the element.
+	// If the element is a link and has a href, set the link to the element's href.
+}

@@ -1,0 +1,42 @@
+body {
+
+}
+
+span.h1{
+	display:block;
+	font-size:larger;
+	color:red
+}
+
+span.t1{
+	display:inline;
+	font-weight:bold;
+}
+
+span.t2{
+	display:inline;
+	font-style: italic;
+}
+
+span.t3{
+	display:inline;
+	font-weight:bold;
+	font-style:italic;
+	color:green;
+}
+
+span.title{
+	
+}
+
+span.url{
+	
+}
+
+span.default{
+	
+}
+
+iframe.app{
+	display:hidden;
+}
